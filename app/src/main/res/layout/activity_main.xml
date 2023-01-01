@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="20dp"
+            >
+
+            <Button
+                android:id="@+id/button_lifecycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="생명주기 테스트"
+                />
+
+            <Button
+                android:id="@+id/button_mvc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MVC Pattern"
+                />
+
+            <Button
+                android:id="@+id/button_mvp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MVP Pattern"
+                />
+
+            <Button
+                android:id="@+id/button_mvvm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MVVM Pattern"
+                />
+
+            <Button
+                android:id="@+id/button_decorator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Decorator Pattern"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
